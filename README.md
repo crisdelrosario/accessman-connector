@@ -4,8 +4,6 @@
 
 
 ```
-#!go
-
 import (
     "fmt"
     "bitbucket.org/cdelrosario03/accessman"
@@ -21,7 +19,6 @@ fmt.Println("Mock Server URL: " + mock.GetServerURL())
 ### Access Verification ###
 
 ```
-#!go
 import (
   "fmt"
   "bitbucket.org/cdelrosario03/accessman"
