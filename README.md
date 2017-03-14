@@ -6,7 +6,7 @@
 ```
 import (
     "fmt"
-    "bitbucket.org/cdelrosario03/accessman"
+    "github.com/cdelrosario03/accessman"
 )
 
 Port := "8443"
@@ -21,7 +21,7 @@ fmt.Println("Mock Server URL: " + mock.GetServerURL())
 ```
 import (
   "fmt"
-  "bitbucket.org/cdelrosario03/accessman"
+  "github.com/cdelrosario03/accessman"
 )
 
 const (
@@ -32,9 +32,9 @@ const (
 am := accessman.NewAccessRequest(API, AccessmanURL)
 
 clientIP := "0.0.0.0"
-path := "/client"
+path := "/test"
 method := "Get"
-username := "OPK00000000000001"
+username := "username"
 password := "password"
 
 if err := am.VerifyAccess(clientIP, path, method, username, password); err !=  nil {
