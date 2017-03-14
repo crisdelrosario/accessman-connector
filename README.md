@@ -6,7 +6,7 @@
 ```
 import (
     "fmt"
-    "github.com/crisdelrosario/accessman"
+    "github.com/crisdelrosario/accessman-connector"
 )
 
 Port := "8443"
@@ -21,7 +21,7 @@ fmt.Println("Mock Server URL: " + mock.GetServerURL())
 ```
 import (
   "fmt"
-  "github.com/crisdelrosario/accessman"
+  "github.com/crisdelrosario/accessman-connector"
 )
 
 const (
