@@ -1,3 +1,18 @@
+/*
+Create A Mock Server For Testing
+
+		import (
+				"fmt"
+				"github.com/crisdelrosario/accessman-connector"
+		)
+
+		Port := "8443"
+		mock := accessman.NewMockServer(Port)
+		mock.Run()
+
+		fmt.Println("Mock Server URL: " + mock.GetServerURL())
+
+*/
 package accessman
 
 import (
